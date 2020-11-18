@@ -21,7 +21,7 @@ jobs:
       with:
         java-version: 1.8
     - name: Set up Maven
-      uses: stCarolas/setup-maven@v3
+      uses: pabsi/setup-maven@v4
       with:
         maven-version: 3.5.4
     - name: Build with Maven
